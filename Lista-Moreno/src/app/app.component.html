@@ -1,0 +1,16 @@
+<h1 style="color:white;background-color: blue;">{{Titulo | uppercase}}</h1>
+<h2>
+    Lista de Alumnos
+</h2>
+
+<h3 *ngIf="nombre != ''"> Hola mi nombre es: {{ nombre }}</h3>
+
+<h3> Mis Alumnos son:</h3>
+
+<ul>
+    <ng-container *ngFor="let Alumno of Alumnos">
+        <li>
+            <span>{{Alumno.nombre}} {{Alumno.apellido}}</span>
+        </li>
+    </ng-container>
+</ul>
