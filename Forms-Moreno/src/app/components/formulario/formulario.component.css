@@ -1,0 +1,13 @@
+.formula {
+    text-align: center;
+    background-color: azure;
+    height: 600px;
+}
+
+.encabeza {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: beige;
+    height: 50px;
+}
